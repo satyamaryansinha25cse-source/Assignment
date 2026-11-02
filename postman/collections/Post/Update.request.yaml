@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:4000/api/posts/6ae8c92e56793cac0bac37fa
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"My Updated Blog\",\r
+
+    \    \"description\": \"I have successfully updated my first blog post.\",\r
+
+    \    \"age\": 22\r
+
+    }"
+order: 1000
